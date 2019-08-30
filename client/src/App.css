@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Signika&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Livvic&display=swap');
+.App {
+  text-align: center;
+}
+
+.logo{
+  width: 10em;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.myCard{
+  margin-bottom: 32px;
+  border:none;
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+  box-shadow: 0 10px 16px 0 rgba(224, 224, 224, 0.4),0 6px 20px 0 rgba(202, 202, 202, 0.4) !important;
+}
+.myCard p{
+  color: #2a2a2a;
+}
+
+.profile{
+  margin-bottom: 24px;
+}
+.sidenav {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #000000;
+  overflow-x: hidden;
+  padding-top: 20px;
+  color:white;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #ffffff;
+  display: block;
+}
+
+.card-title a{
+  color: #0c0
+}
+.sidenav a:hover {
+  color: #0c0
+}
+.sidenav h2{
+  margin-bottom:40px;
+  font-size: 30px;
+}
+.sidenav h4{
+  font-size: 25px;
+}
+
+.know-me{
+  margin-top:40px;
+  font-size: 15px;
+}
+.know-me h4{
+  font-size: 23px;
+  text-decoration: underline;
+}
+.list-group{
+  margin-top:20px;
+}
+.list-group-item{
+  background-color: inherit;
+  text-shadow: 2px 2px #000000;
+  font-size: 16px;
+  border-style: solid;
+  border-left-style: none;
+  border-color:black;
+  border-right-style: none;
+}
